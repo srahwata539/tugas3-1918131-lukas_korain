@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_wifi"
+            android:icon="@drawable/ic_wifi"
+            android:title="wifi"/>
+        <item android:id="@+id/nav_wifilock"
+            android:icon="@drawable/ic_wifi_lock"
+            android:title="wifi_lock"/>
+        <item android:id="@+id/nav_wifioff"
+            android:icon="@drawable/ic_wifi_off"
+            android:title="wifi_off"/>
+    </group>
+
+
+</menu>
